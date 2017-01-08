@@ -1,0 +1,59 @@
+body {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg") no-repeat center;
+  background-size: cover;
+  font-family: 'Merriweather', serif;
+}
+
+.header {
+  background-color:rgba(0, 0, 0, 0.3););
+  padding:10px 0;
+}
+
+.header li .logo {
+  height:36px;
+  width:36px;
+}
+
+.header li {
+  display: inline-block;
+  padding-right: 20px;
+  color:#fff;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.supporting {
+  text-align: center;
+  color:#fff;
+}
+
+.btn {
+  margin:100px 0 125px;
+  background:rgba(0,255,188,0.5);
+  border:none;
+  broder-radius:8px;
+  font-size:18px;
+  letter-spacing:1.3px;
+  padding:10px 60px;
+
+
+
+}
+
+.footer {
+  color:#fff;
+}
+.footer a {
+  color:#fff;
+}
+
+@media (max-width:450px) {
+  .header li {
+    display: inline-block;
+    padding-right: 10px;
+
+  }
+
+}

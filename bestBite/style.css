@@ -1,0 +1,104 @@
+html, body{
+  font-family: 'Arvo',serif;
+  font-size:16px;
+}
+
+.header {
+  padding:40px;
+}
+.header h1 {
+  margin:0;
+  padding:0;
+}
+
+
+.jumbotron {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 100px;
+    margin-bottom: 0;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  color:#fff;
+  text-align: right;
+  margin:0;
+}
+
+
+.support {
+  padding-top: 35px;
+  height:180px;
+  background-color: #36343f;
+  text-align: center;
+
+}
+
+.support h3 {
+  color:#fff;
+}
+
+.support .btn {
+  background-color: rgba(216,25,47,.5);
+  border:0px;
+  color:#fff;
+  margin-top:10px;
+}
+
+.supporting {
+  padding-top:30px;
+  padding-bottom:15px;
+  margin: 0 28px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.supporth {
+  border-bottom: 1px solid #eee;
+}
+
+.supporth h3 {
+  font-size: 30px;
+}
+
+.supporting h4 {
+  color:#d8192f;
+  margin:30px 0 20px;
+  padding:0;
+  font-size:20px;
+}
+
+.footer .center {
+  text-align: center;
+}
+
+.footer .right {
+  text-align: right;
+
+}
+.footer .right h6 {
+  text-align: right;
+}
+
+.footer {
+  padding-top: 25px;
+}
+
+.fl {
+
+}
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li a {
+border: 1px solid #d8192f;
+}
+
+li.active a {
+  background-color: #d8192f !important;
+}

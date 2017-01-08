@@ -1,0 +1,131 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header li a, .navbar-brand{
+    background-color: #333333;
+    color:#fff;
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.navbar, {
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar-light {
+  margin-bottom:0px;
+}
+
+.jumbotron {
+    background: url("http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    height: 800px;
+    text-align: center;
+}
+.main {
+    position: relative;
+    top: 200px;
+}
+.main h1 {
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    margin: 0 0 80px 0;
+    text-transform: uppercase;
+}
+.btn-default {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn {
+    border:1px solid #333;
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.supporting {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.supporting .col-sm-4 {
+
+    text-align: center;
+}
+.supporting img {
+    height: 32px;
+}
+.supporting h2 {
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+.supporting p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 50px;
+    margin-bottom: 40px;
+}
+.supporting .col {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.supporting img {
+    height: 32px;
+}
+
+.footer {
+  background-color:#333;
+  color:#fff;
+  padding:10px 12px;
+
+
+}
+
+.navbar-light .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.footer a {
+  color:#fff;
+  font-size:14px;
+  font-weight:normal
+  margin: 40px 0;
+}
+
+
+@media (max-width:550px) {
+    .jumbotron h1 {
+        font-size: 40px;
+    }
+
+}

@@ -1,0 +1,59 @@
+body {
+background-color: #cccdce;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+}
+
+.header {
+  background-color: #fff;
+  text-align: center;
+  padding:30px 0;
+}
+
+.nav {
+  background-color: #cccdce;
+}
+
+.nav .container {
+  padding: 0;
+}
+
+.main {
+  background-color: #cccdce;
+}
+
+.nav ul {
+    height: 50px;
+    margin: 0 0 30px;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.nav li {
+    color: #fff;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    -webkit-transition: color 0.25s;
+    transition: color 0.25s;
+}
+
+.nav li:hover {
+    color: #31363d;
+    cursor: pointer;
+    -webkit-transition: color 1s;
+    transition: color 1s;
+}
+
+img {
+  padding: 15px 0;
+}
+
+@media (max-width:400px) {
+  .nav li {
+    font-size: 14px;
+  }
+
+}
